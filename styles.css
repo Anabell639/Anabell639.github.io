@@ -1,0 +1,67 @@
+html {
+  font-size: 12px;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777;
+  background-color: #fff;
+  overflow: hidden;
+  min-height: 100vh;
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg);
+  background-size: 100%;
+  text-align: center
+}
+
+.main-container {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.textarea {
+  height: 3rem;
+  padding: 2rem;
+  width: 80%;
+  border-radius: 2rem;
+  border: 1px solid #80808059;
+  background-color: #ffffff9c;
+  box-shadow: 1px 5px 13px 0px #0000004f;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+.suggestion {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: #ffffffa8;
+  padding: 2rem;
+  color: rgb(25, 26, 24);
+  font-size: 4rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+button{
+  border: 1px solid #80808059;
+  background-color: #ffffff9c;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  visibility: hidden;
+  font-size: 2rem;
+  text-align: center;
+}
+
